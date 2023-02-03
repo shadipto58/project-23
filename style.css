@@ -1,0 +1,99 @@
+img{
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+
+.header-area{
+	background: #e056fd;
+	padding: 20px 0;
+	
+}
+.wrapper{
+	width: 100%;
+	margin: auto;
+	position: relative;
+	overflow-x: hidden;
+}
+
+.main-menu ul{
+	display: flex;
+	justify-content: flex-end;
+	margin-bottom: 0;
+	padding: 0;
+	list-style: none;
+}
+.main-menu ul li a{
+	color: #000;
+	padding: 0 20px;
+	text-decoration: none;
+	text-transform: capitalize;
+
+}
+.menu-icon{
+	display: none;
+}
+
+.mobile-menu{
+	display: none;
+}
+.menu-close i{
+	color: #fff;
+	padding: 10px;
+}
+
+#akash{
+	display: none;
+}
+
+.habiba{
+	width: 120px;
+	height: 100px;
+	background: #e056fd;
+	margin: auto;
+}
+
+.afroja{
+	width: 200px;
+	height: 200px;
+	background: #ED4C67;
+	border-radius: 100%;
+	margin: auto;
+}
+
+.bhag{
+	width: 250px;
+	padding: 80px 20px;
+	background: #fff;
+	box-shadow: 0 0 10px #596275;
+	position: absolute;
+	top: 80%;
+	left: 70%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	display: none;
+}
+.bhag span{
+	position: absolute;
+	top: 5px;
+	right: 10px;
+}
+
+
+
+.hello{
+	width: 200px;
+	height: 200px;
+	background: black;
+	margin: 30px auto;
+	position: relative;
+	overflow-x: hidden;
+}
+.bye{
+	width: 100px;
+	height: 250px;
+	background: red;
+	position: absolute;
+	top: 0;
+	right: -100px;
+}
